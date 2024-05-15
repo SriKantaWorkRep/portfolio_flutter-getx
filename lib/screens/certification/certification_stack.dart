@@ -56,7 +56,7 @@ class CertificationStack extends StatelessWidget {
               Text("Date of issue :",style:smGTS.copyWith(fontWeight: FontWeight.bold)),
               Text(certificateModelList[index].date,style:smGTS.copyWith(color: Colors.grey.shade300)),
               ],
-            ),
+            ),g
           ],
         ),
       ) ,
